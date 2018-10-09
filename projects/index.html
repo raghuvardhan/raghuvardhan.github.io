@@ -1,0 +1,11 @@
+---
+layout: default
+title: Raghuvardhan Karanam's Projects
+---
+	<h1>{{ project.title }}</h1>
+	<ul class="projects">
+
+	  {% for project in site.projects %}
+	    <li><span>{{ project.title }}</span> » <a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a></li>
+	  {% endfor %}
+	</ul>
