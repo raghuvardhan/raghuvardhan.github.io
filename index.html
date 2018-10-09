@@ -3,3 +3,10 @@ layout: default
 title: Raghu Karanam, Android developer
 ---
 	<p>I currently work at <em>Accolite</em> as a software engineer. <a href="/about">Read more about my life...</a></p>
+
+	<ul class="projects">
+
+	  {% for project in site.projects %}
+	    <li><span>{{ project.date | date_to_string }}</span> » <a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a></li>
+	  {% endfor %}
+	</ul>
