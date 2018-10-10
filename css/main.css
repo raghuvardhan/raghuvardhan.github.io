@@ -60,6 +60,17 @@ img {
     font-size: 18px;
 }
 
+.projectTitle{
+    font-size: 2em;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 2em;
+    height: 2em;
+}
+
 button {
     border: none;
     outline: 0;
@@ -81,13 +92,4 @@ a {
 
 button:hover, a:hover {
     opacity: 0.7;
-}
-
-.projectTitle{
-    font-size: 2em;
-    margin-bottom: 5px;
-}
-.logo{
-    width: 2em;
-    height: 2em;
 }
