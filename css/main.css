@@ -83,3 +83,8 @@ a {
 button:hover, a:hover {
     opacity: 0.7;
 }
+
+.logo{
+    width: 10em;
+    height: 2em;
+}
