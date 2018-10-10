@@ -86,6 +86,7 @@ button:hover, a:hover {
 
 .projectTitle{
     font-size: 2em;
+    margin-bottom: 5px;
 }
 .logo{
     width: 2em;
