@@ -105,14 +105,6 @@ img {
   padding: 0 4px;
 }
 
-.card {
-    height:10em;
-    width: 5em;
-    margin: 2px;
-    text-align: center; 
-/*    float: left;
-*/}
-
 .description {
     font-size: 18px;
     text-align: center;
