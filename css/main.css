@@ -108,6 +108,7 @@ img {
 .card {
     height:10em;
     width: 5em;
+    margin: 2px; 
 /*    float: left;
 */}
 
