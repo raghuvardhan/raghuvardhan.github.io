@@ -100,23 +100,17 @@ img {
 }
 
 .portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
+  display: grid;
+/*  flex-wrap: wrap;
+/**/  padding: 0 4px;
+*/}
 
 .card {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
     width:25%;
     height:18em;
-    float: left;
-}
-
-.column{
- float: left;
-  flex: 25%;
-  padding: 0 4px;
-}
+/*    float: left;
+*/}
 
 .description {
     font-size: 18px;
