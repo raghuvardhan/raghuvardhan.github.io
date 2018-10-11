@@ -101,7 +101,7 @@ img {
 
 .portfolio {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto 10%;
   padding: 0 4px;
 }
 
@@ -145,7 +145,7 @@ button:hover, a:hover {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 30% 30% 30%;
   background-color: #2196F3;
   padding: 10px;
 }
