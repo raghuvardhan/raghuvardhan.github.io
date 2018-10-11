@@ -106,10 +106,13 @@ img {
 }
 
 .description {
-    color: grey;
     font-size: 18px;
+    text-align: center;
 }
 
+.description: hover{
+    color: grey;
+}
 .projectTitle{
     font-size: 1.5em;
     margin-bottom: 5px;
