@@ -145,7 +145,7 @@ button:hover, a:hover {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
   background-color: #2196F3;
   padding: 10px;
 }
