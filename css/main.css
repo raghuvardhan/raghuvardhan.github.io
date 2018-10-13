@@ -128,6 +128,7 @@ img {
 
 .grid-container {
   display: grid;
+  background-color: black;
   grid-template-columns: 33.3% 33.3% 33.3%;
   padding: 10px;
   width: 95%;
