@@ -106,12 +106,6 @@ img {
     margin: 2em;
 }
 
-.portfolio {
-  display: grid;
-  grid-template-columns: auto auto 10%;
-  padding: 0 4px;
-}
-
 .description {
     font-size: 18px;
     text-align: center;
@@ -132,24 +126,6 @@ img {
     height: 2em;
 }
 
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
-
-button:hover, a:hover {
-    opacity: 0.7;
-}
-
-
 .grid-container {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
@@ -159,8 +135,8 @@ button:hover, a:hover {
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10%;
   padding: 20px;
-  font-size: 30px;
   text-align: center;
   margin: 12px;
 }
