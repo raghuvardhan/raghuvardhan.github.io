@@ -1,24 +1,20 @@
-
-a{
-
-}
-
 body {
     background-color: #F5F5F5;
     margin: auto;
     width: 95%;
 }
-nav ul, footer ul {
+
+nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+
+nav ul li{
     display: inline;
     margin-right: 20px;
 }
-
 
 .pages {
     text-decoration: none;
@@ -29,16 +25,19 @@ nav ul li, footer ul li {
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
 p {
     font-size: 1.2em;
     line-height: 1.4em;
     margin: 2px;
     color: #333;
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -58,6 +57,7 @@ img {
     height: 7em;
     width: 7em;
 }
+
 .projects{
     margin: 2em;
 }
@@ -93,6 +93,7 @@ img {
 .grid-container: hover{
   opacity: 0.3;
 }
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
