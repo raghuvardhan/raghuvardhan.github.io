@@ -119,8 +119,9 @@ img {
   margin-top: 1.5rem;
 }
 
-.a{
+a{
   text-decoration: none;
+  padding: 8px;
 }
 
 .site-footer h3{
