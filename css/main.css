@@ -84,7 +84,6 @@ img {
 
 .grid-container {
   display: grid;
-  background-color: black;
   grid-template-columns: 33.3% 33.3% 33.3%;
   padding: 10px;
   width: auto;
@@ -130,6 +129,7 @@ img {
 .site-footer a{
   text-decoration: none;
   padding: 8px;
+  color: white;
 }
 
 .site-footer h3{
