@@ -1,7 +1,7 @@
 body {
     background-color: #F5F5F5;
     margin: auto;
-    width: 95%;
+    width: auto;
 }
 
 nav ul {
@@ -87,7 +87,7 @@ img {
   background-color: black;
   grid-template-columns: 33.3% 33.3% 33.3%;
   padding: 10px;
-  width: 95%;
+  width: auto;
 }
 
 .grid-container: hover{
