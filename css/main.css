@@ -101,3 +101,10 @@ img {
   text-align: center;
   margin: 12px;
 }
+
+.site-footer {
+    padding: 4rem 0;
+    text-align: center;
+    background: #292c33;
+    color: #bec6d5;
+}
