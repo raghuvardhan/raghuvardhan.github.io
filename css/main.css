@@ -112,7 +112,7 @@ img {
 
 .site-footer p{
   width: 500px;
-  margin: 0 auto 2rem;
+  margin: 0 auto 0px;
   color: #bec6d5;
 }
 
@@ -123,7 +123,7 @@ img {
 
 .fa{
   size: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 3rem;
   color: white;
 }
 
