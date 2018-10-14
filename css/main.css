@@ -16,12 +16,6 @@ nav ul li{
     margin-right: 20px;
 }
 
-.pages {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-}
-
 a:hover {
     text-decoration: underline;
 }
@@ -55,6 +49,13 @@ img {
     border-radius: 50%;
     height: 7em;
     width: 7em;
+}
+
+
+.pages {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
 }
 
 .projects{
@@ -128,4 +129,11 @@ a{
 .site-footer h3{
   color: white;
   font-size: 1.8rem;
+}
+
+.footer-bottom{
+  text-align: center;
+  background-color: black;
+  color: #bec6d5;
+
 }
