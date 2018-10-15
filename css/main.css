@@ -45,7 +45,7 @@ ul.posts li {
     list-style: none;
 }
 
-img {
+.avatar {
     border-radius: 50%;
     height: 7em;
     width: 7em;
