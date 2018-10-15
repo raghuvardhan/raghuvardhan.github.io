@@ -144,8 +144,13 @@ ul.posts li {
 }
 
 header{
-  width: 100%;
   background: url(/assets/images/header_background.jpg);
   background-size: cover;
   background-position:center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
 }
