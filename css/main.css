@@ -143,7 +143,7 @@ ul.posts li {
   color: #bec6d5;
 }
 
-header{
+.header-background{
   background: url(/assets/images/header_background.jpg);
   background-size: cover;
   background-position:center;
