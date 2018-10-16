@@ -143,14 +143,18 @@ ul.posts li {
   color: #bec6d5;
 }
 
+header{
+  height: 30rem;
+}
+
 .header-background{
   background: url(/assets/images/header_background.jpg);
   background-size: cover;
   background-position:center;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  min-height: 100%;
+  min-height: 30rem;
   z-index: -100;
 }
