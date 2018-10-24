@@ -47,8 +47,9 @@ ul.posts li {
 
 .avatar {
     border-radius: 50%;
-    height: 18em;
+    height: 25%;
     width: 25%;
+    margin: auto;
     display: block;
 }
 
