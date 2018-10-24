@@ -160,3 +160,8 @@ header{
   min-height: 30rem;
   z-index: -100;
 }
+
+.div-title{
+  font-size: 2rem;
+  font-style: bold;
+}
