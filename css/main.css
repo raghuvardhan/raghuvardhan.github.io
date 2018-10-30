@@ -95,6 +95,14 @@ ul.posts li {
   opacity: 0.3;
 }
 
+.w3-center .w3-bar{display:inline-block;width:auto}
+
+.w3-content,.w3-auto{margin-left:auto;margin-right:auto}  
+
+.w3-content{max-width:980px}
+
+.w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
