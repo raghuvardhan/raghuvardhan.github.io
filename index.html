@@ -2,6 +2,80 @@
 layout: default
 title: Raghu Karanam, Android developer
 ---
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("card");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">Manual Slideshow</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="img_snowtops.jpg" style="width:100%">
+  <img class="mySlides" src="img_lights.jpg" style="width:100%">
+  <img class="mySlides" src="img_mountains.jpg" style="width:100%">
+  <img class="mySlides" src="img_forest.jpg" style="width:100%">
+      <div class="card">
+        <h1 class="projectTitle">MNew</h1>
+        <p class="description">The Website about local news</p>
+        <a href="https://github.com/raghuvardhan/MNews" title="github" target="_blank">Github Link</a>
+      </div>
+      <div class="card">
+        <h1 class="projectTitle">Attendance</h1>
+        <p class="description">Shows the number of classes you need to attend or bunk</p>
+        <a href="https://github.com/raghuvardhan/Attendance" target="_blank">Github Link</a>
+      </div>
+     <div class="card">
+        <h1 class="projectTitle">File-Systems</h1>
+        <p class="description">Project which simulates a new file system on the machine</p>
+        <a href="https://github.com/raghuvardhan/File-Systems" target="_blank">Github Link</a>
+      </div>
+
+      <div class="card">
+        <h1 class="projectTitle">To-do List</h1>
+        <p class="description">The Application for daily planner</p>
+        <a href="https://github.com/raghuvardhan/To-Do-List" target="_blank">Github Link</a>
+      </div>
+
+      <div class="card">
+        <h1 class="projectTitle">Assembler</h1>
+        <p class="description">A simulation of a mini-assembler</p>
+        <a href="https://github.com/raghuvardhan/To-Do-List" target="_blank">Github Link</a>
+      </div>
+
+      <div class="card">
+        <h1 class="projectTitle">Excel-File</h1>
+        <p class="description">A simulated version of Excel sheet</p>
+        <a href="https://github.com/raghuvardhan/To-Do-List" target="_blank">Github Link</a>
+      </div>
+
+</div>
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
 	<p>I currently work at <em>Accolite</em> as a software engineer. 
 
 
