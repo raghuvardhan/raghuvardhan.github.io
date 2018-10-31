@@ -522,3 +522,9 @@ header{
 .walkthrough .screens .screen.active .media.comm .status-badge {
   transition-delay: 1.6s;
 }
+
+.project{
+  margin: auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
+
+}
