@@ -198,7 +198,7 @@ header{
 .slideshow-container {
   max-width: 300px;
   position: relative;
-  margin-top: 200px;
+  margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
 }
