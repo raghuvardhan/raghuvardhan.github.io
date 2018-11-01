@@ -197,7 +197,9 @@ header{
 .slideshow-container {
   max-width: 300px;
   position: relative;
-  margin: auto;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Next & previous buttons */
