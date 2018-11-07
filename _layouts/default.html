@@ -87,6 +87,7 @@
 <script type="text/javascript">
 
   $(window).scroll(function() {
+    console.log("scroll is " + $(".navbar").offset().top);
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
              console.log("I am scrolling");
