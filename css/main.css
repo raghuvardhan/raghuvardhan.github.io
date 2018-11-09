@@ -20,6 +20,11 @@ nav ul li{
   position: fixed;
 }
 
+.top-nav-collapse{
+  position: fixed;
+  background: black;
+}
+
 a:hover {
     text-decoration: underline;
 }
