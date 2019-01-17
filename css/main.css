@@ -300,6 +300,6 @@ header{
   height: 464px;
   overflow: hidden;
   transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-  width: 300px;
+  width: 350px;
   z-index: 1000;
 }
