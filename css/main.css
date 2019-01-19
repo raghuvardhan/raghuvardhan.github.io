@@ -15,7 +15,7 @@ nav ul {
 nav ul li{
     display: inline;
     margin-right: 20px;
-}
+}/*
 
 .navbar{
     margin-bottom: 0;
@@ -33,7 +33,7 @@ nav ul li{
   position: fixed;
   background: black;
 }
-
+*/
 a:hover {
     text-decoration: underline;
 }
