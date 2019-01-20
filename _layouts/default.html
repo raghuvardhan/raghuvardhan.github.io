@@ -15,7 +15,7 @@
 			<header>
 				<div class="header-background"></div>
 			
-          <div class="navbar">
+          <div id="navbar">
             <a href="#page-top"><i class="fa fa-home"></i>Home</a>
             <a href="#projects"><i class="fa fa-eye"></i>My Projects</a>
             <a href="https://raghuvardhank.blogspot.com/" target="_blank"><i class="fa fa-ellipsis-v"></i>Blog</a>
@@ -76,11 +76,11 @@
 <script type="text/javascript">
 
   $(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
-        $(".navbar").addClass("sticky");
+    if ($("#navbar").offset().top > 50) {
+        $("#navbar").addClass("sticky");
         console.log("i am scrolled");
     } else {
-        $(".navbar").removeClass("sticky");
+        $("#navbar").removeClass("sticky");
         console.log("i am not scrolled");
     }
 });

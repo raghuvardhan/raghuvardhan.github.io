@@ -288,13 +288,13 @@ header{
 }
 
 /* Style the navbar */
-.navbar {
+#navbar {
   overflow: hidden;
   margin-top: -40px;
 }
 
 /* Navbar links */
-.navbar a {
+#navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
