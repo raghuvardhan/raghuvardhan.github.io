@@ -15,7 +15,7 @@
 			<header>
 				<div class="header-background"></div>
 			
-          <div id="navbar">
+          <div class="navbar">
             <a href="#page-top"><i class="fa fa-home"></i>Home</a>
             <a href="#projects"><i class="fa fa-eye"></i>My Projects</a>
             <a href="https://raghuvardhank.blogspot.com/" target="_blank"><i class="fa fa-ellipsis-v"></i>Blog</a>
@@ -75,31 +75,31 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script type="text/javascript">
 
-//   $(window).scroll(function() {
-//     if ($(".navbar").offset().top > 50) {
-//         $(".navbar-fixed-top").addClass("top-nav-collapse");
-//     } else {
-//         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-//     }
-// });
+  $(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar").addClass("sticky");
+    } else {
+        $(".navbar").removeClass("sticky");
+    }
+});
 
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
+// // When the user scrolls the page, execute myFunction 
+// window.onscroll = function() {myFunction()};
 
-// Get the navbar
-var navbar = document.getElementById("navbar");
+// // Get the navbar
+// var navbar = document.getElementById("navbar");
 
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
+// // Get the offset position of the navbar
+// var sticky = navbar.offsetTop;
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
+// // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     navbar.classList.add("sticky")
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
 
 
 var slideIndex = 1;
