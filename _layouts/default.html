@@ -78,8 +78,10 @@
   $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar").addClass("sticky");
+        console.log("i am scrolled");
     } else {
         $(".navbar").removeClass("sticky");
+        console.log("i am not scrolled");
     }
 });
 
