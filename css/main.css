@@ -338,3 +338,7 @@ header{
 .sticky + .content {
   padding-top: 60px;
 }
+
+.scroll-down{
+    margin: auto;
+}
