@@ -76,11 +76,11 @@
 <script type="text/javascript">
 
   $(window).scroll(function() {
-    if ($("#navbar").offset().top > 50) {
-        $("#navbar").addClass("sticky");
+    if ($("#navbar")[0].offset().top > 50) {
+        $("#navbar")[0].addClass("sticky");
         console.log("i am scrolled");
     } else {
-        $("#navbar").removeClass("sticky");
+        $("#navbar")[0].removeClass("sticky");
         console.log("i am not scrolled");
     }
 });
