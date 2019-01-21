@@ -324,4 +324,6 @@ header{
 
 .scroll-down{
     margin: auto;
+    position: absolute;
+    left: 50%;
 }
