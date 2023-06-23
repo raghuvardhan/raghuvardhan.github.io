@@ -1,7 +1,14 @@
----
-layout: default
-title: Raghu Karanam, Android developer
----
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
 <body>
 <div class="slideshow-container" id="projects">
     <h1 style="margin: auto; margin: 10px;">Featured Projects</h1>
@@ -63,21 +70,59 @@ title: Raghu Karanam, Android developer
         </ul>
         <a href="https://github.com/raghuvardhan/Excel-File" target="_blank">Github Link</a>
       </div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
 </div>
-
 <br>
+<footer class="site-footer">
+  <div class="container">
+    <h3>
+      Raghuvardhan Karanam
+    </h3>
+    <p class="footer-text">
+      Android developer, Occassional blogger and problem solver.  I love reading novels, listening music, and watching cricket.
+    </p>
+    <p class="email-link">Say hello at<span>
+    <a href="mailto:karanamraghuvardhan12@gmail.com" target="_blank">karanamraghuvardhan@gmail.com</a></span>
+    <p class="email-link">You can view my blogs at<span><a href="https://raghuvardhank.blogspot.com/" target="_blank">e-blogger</a></span>
+    <div class="social-icons">
+        <a href="https://twitter.com/urstruly_raghu" target="_blank">
+          <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/raghuvardhan" target="_blank">
+          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/karanam-raghuvardhan-1ab936b6/" target="_blank">
+          <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+        </a>
+    </div>
+    <div class="footer-bottom">
+    <p>
+      Made by Raghuvardhan Karanam.
+    </p>
+    </div>
+  </div>
+</footer>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script type="text/javascript">
 
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span> 
-  <span class="dot" onclick="currentSlide(5)"></span> 
-  <span class="dot" onclick="currentSlide(6)"></span> 
-</div>
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+ if (window.pageYOffset >= sticky) {
+   navbar.classList.add("sticky")
+ } else {
+   navbar.classList.remove("sticky");
+ }
+}
+</script>
+</body>
+</html>
 
    
