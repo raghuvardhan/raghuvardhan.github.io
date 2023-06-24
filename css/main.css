@@ -141,8 +141,8 @@ article {
 }
 
 article img {
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 250px;
 }
 
 article h3 {
