@@ -2,19 +2,9 @@ body {
     background-color: #F5F5F5;
     margin: auto;
     width: auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
  }
-
-nav ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-
-nav ul li{
-    display: inline;
-    margin-right: 20px;
-}
 
 
 h1 {
@@ -36,89 +26,19 @@ p {
   color: #333;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-.description {
-    font-size: 18px;
-    text-align: center;
-}
-
-.description: hover{
-    color: grey;
-}
-
-.projectTitle{
-    font-size: 1.5em;
-    margin-bottom: 5px;
-    text-align: center;
-}
-
-.logo{
-    width: 2em;
-    height: 2em;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
-  padding: 10px;
-  width: auto;
-}
-
-.grid-container: hover{
-  opacity: 0.3;
-}
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  border-radius: 6px;
-  padding: 20px;
-  text-align: center;
-  margin: 12px;
-}
-
-.card{
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  border-radius: 6px;
-  padding: 20px;
-  text-align: center;
-  margin: 12px;
-}
-
-.grid-container-skills {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  padding: 10px;
-  width: auto;
-}
-
-.grid-item-skills {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  border-radius: 6px;
-  padding: 20px;
-  text-align: center;
-  margin: 12px;
-}
-
-.div-title{
-  font-size: 2rem;
-  font-style: bold;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
-
 nav ul {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
 }
 
 nav ul li a {
@@ -129,6 +49,12 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #555;
 }
+
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 .hero {
   display: flex;
