@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title>Raghuvardhan Karanam</title>
+            <link rel="icon" href="assets/images/favicon.png" type="image/png">
+            <meta charset="utf-8">
+            <meta name="description" content="Raghuvardhan Karanam is a Full Stack Developer and a certified professional scrum master with more than 5 years of experience in Software Industry">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	        <link rel="stylesheet" type="text/css" href="/css/main.css">
+            <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+            <script>
+            fetch("2018-10-10-my-first-project.md")
+              .then(response => response.text())
+              .then(mdContent => {
+                // Create a new instance of the Showdown converter
+                const converter = new showdown.Converter();
+            
+                // Convert the MD content to HTML
+                const htmlContent = converter.makeHtml(mdContent);
+            
+                // Set the HTML content inside the container element
+                document.getElementById('md-content').innerHTML = htmlContent;
+              });
+              </script>
+            
+	    </head>
+       <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="/blog.html" target="_blank">Blog</a></li>
+          <li><a href="/resume.html">Resume</a></li>
+        </ul>
+      </nav>
+</header>
+<main>
+    <div id="md-content"></div>
+</main>
