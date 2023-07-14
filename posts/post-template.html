@@ -7,6 +7,16 @@
             <meta name="description" content="Raghuvardhan Karanam is a Full Stack Developer and a certified professional scrum master with more than 5 years of experience in Software Industry">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	        <link rel="stylesheet" type="text/css" href="/css/main.css">
+            <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+            <script>
+            fetch("post-template.md")
+              .then(response => response.text())
+              .then(mdContent => {
+                const converter = new showdown.Converter();
+                const htmlContent = converter.makeHtml(mdContent);            
+                document.getElementById('md-content').innerHTML = htmlContent;
+              });
+              </script>
 	    </head>
        <body>
     <header>
@@ -19,10 +29,5 @@
       </nav>
 </header>
 <main>
-    <section id="introduction">
-    </section>
-    <section id="topic">
-    </section>
-    <section id="conclusion">
-    </section>
+    <div id="md-content"></div>
 </main>
