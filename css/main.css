@@ -55,9 +55,8 @@ nav{
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: grey;
+  background-color: var(--secondary-bg-color);
   z-index: 1000;
-  margin-bottom: 200px;
 }
 
 /* Navigation */
@@ -65,7 +64,6 @@ nav ul {
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
   padding: 0;
   list-style: none;
-  font-weight: bold;
   display: flex;
   justify-content: space-around;
 }
@@ -75,9 +73,15 @@ nav ul li {
   margin-right: 20px;
 }
 
+nav ul li :hover{
+  font-weight: bolder;
+
+}
+
 nav ul li a {
   text-decoration: none;
   padding: 0.5rem 1rem;
+  color: black;
 }
 
 
@@ -91,6 +95,7 @@ a:hover {
   align-items: center;
   background-color: var(--secondary-bg-color);
   padding: 0 2rem;
+  margin-top: 60px;
 }
 
 .hero-content {
