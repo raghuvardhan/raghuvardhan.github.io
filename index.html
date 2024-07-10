@@ -19,9 +19,8 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="/blog.html" target="_blank">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
           <li><a href="/assets/pdf/Resume.pdf">Resume</a></li>
-          <li id="theme-toggle" style="display: none"><img id="theme-icon" src="/assets/images/moon.png" alt="Toggle Dark Mode"></li>
+          <li id="theme-toggle" ><img id="theme-icon" src="/assets/images/moon.png" alt="Toggle Dark Mode"></li>
         </ul>
       </nav>
       <section class="hero">
@@ -43,6 +42,9 @@
           </div>
         </div>
       </section>
+      <section class="resume">
+        <span><a href="#contact">Contact</a> <a href="/assets/pdf/Resume.pdf">Resume</a> </span>
+      </section>
 </header>
 <main>
   <section id="skills">
@@ -59,39 +61,23 @@
       <li>SCSS</li>      
     </ul>
   </section>
-  <section id="experience">
-    <h2>Experience</h2>
-    <ul>
-      <li>
-          <h4>Senior Software Engineer</h4>
-          <p>Jan 2022 - Present</p>
+  <section class="experience">
+    <h2 id="exp-title">Experience</h2>
+    
+        <div class="exp">
+          <span><strong>Senior Software Engineer</strong> Jan 2022 - Present</span>
           <p>Insightsoftware</p>
         <p>
-        <ul>
-          <li>Developed and deployed REST-based Web APIs using C#, .Net and SQL Server, facilitating seamless data integration for enterprise-level applications and reducing latency by 25%.</li>
-          <li>Utilizing gRPC for efficient data communication and leveraging Azure authentication with OAuth for secure access, I led the development of a cross-product data sharing system across 5 products.</li>
-          <li>Guided team collaboration as Scrum Master, collaborated with project managers, architects, and cross-functional teams to achieve 100% of sprint goals. Successfully drove feature design and implementation for over 2 years.</li>
-          <li>Implemented Azure DevOps CI/CD pipelines for a 10-member team, automating installer uploads, customer notifications, and security scans, reducing manual steps and enhancing security.</li>
-          <li>Managed a 10-member team and mentored both new and seasoned members in Agile methodologies, yielding a 43% improvement in sprint performance and enhancing team unity.</li>
-          <li>Led the migration of the product from deprecated Silverlight to modern HTML5 using Angular, facilitating a swift transition for over 90% of our user base, completed within a critical deadline due to rapid Silverlight deprecation.</li>
-        </ul>        
+          <p>Developed and deployed REST-based Web APIs using C#, .Net, and SQL Server, improving data integration and reducing latency by 25%. Led the development of a cross-product data-sharing system using gRPC and Azure OAuth, and guided a 10-member team as Scrum Master, improving sprint performance by 43% with Azure DevOps CI/CD pipelines. Successfully migrated from Silverlight to HTML5 with Angular, ensuring a swift transition for over 90% of users within a critical deadline.</p>
         </p>
-        </li> 
-        <li>
-          <h4>Senior Software Engineer</h4>
-          <p>July 2018 - Jan 2022</p>
+        </div>
+        </li>
+        <div class="exp">
+          <span><strong>Senior Software Engineer</strong> July 2018 - Jan 2022</span>
           <p>Accolite Digital</p>
-        <p>
-          <ul>
-            <li>Optimized SQL queries to improve data retrieval speed by up to 20% for large database tables, resulting in enhanced application performance.</li>
-            <li>Designed, developed, and integrated 20 SQL data plugins, enabling seamless integration into multiple ERP systems reducing initial implementation time from days to minutes.</li>
-            <li>Coordinated project maintenance using Salesforce and Jira, resolving over 100 bugs in a 6-month period, thereby improving system stability and user experience.</li>
-            <li>Developed and integrated 10 report generation features into a larger desktop application using C# and .Net Framework with SQL Server, enhancing data visualization capabilities.</li>
-            <li>Responsible for researching,replicating, performing root cause analysis, and providing feedback for product issues reported by the field professionals and customers within the SLA time frame.</li>
-          </ul>
-      </p>
-      </li>
-    </ul>
+          <p>Optimized SQL queries to improve data retrieval speed by 20%, enhancing application performance. Designed and integrated 20 SQL data plugins, reducing ERP implementation time from days to minutes. Coordinated project maintenance using Salesforce and Jira, resolving over 100 bugs in 6 months. Developed and integrated 10 report generation features into a desktop application using C# and .Net Framework with SQL Server, enhancing data visualization. Conducted root cause analysis and provided feedback on product issues within SLA timeframes.
+        </p>
+      </div>
   </section>
   <section id="projects" class="posts">
     <h2>Featured Projects</h2>
@@ -129,13 +115,7 @@
   </section>
 </main>
 <footer>
-  <div class="container">
-    <h3>
-      Raghuvardhan Karanam
-    </h3>
-    <p class="footer-text">
-      Full Stack developer,blogger and problem solver.  I love reading novels, listening music, and watching cricket.
-    </p>
+  <div class="container" id="contact">
     <p class="email-link">Say hello at<span>
     <a href="mailto:karanamraghuvardhan12@gmail.com" target="_blank">karanamraghuvardhan@gmail.com</a></span>
     <div class="social-icons">

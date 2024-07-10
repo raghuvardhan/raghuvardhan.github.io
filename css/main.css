@@ -1,14 +1,14 @@
 /* Common Styles */
 :root {
   /* Light mode variables */
-  --background-color: #F5F5F5;
   --font-color: #333;
-  --secondary-bg-color: #f0f0f0;
+  --background-color: #f0f0f0;
   --nav-hover-color: #555;
   --footer-bg-color: #292c33;
   --footer-font-color: #bec6d5;
   --skills-bg-color: #333;
   --skills-font-color: #fff;
+  --anchor-color: #333;
 }
 
 /* Dark mode variables */
@@ -21,6 +21,7 @@
   --footer-font-color: #a8a8a8;
   --skills-bg-color: #666;
   --skills-font-color: #e0e0e0;
+  --anchor-color: #e0e0e0;
 }
 
 /* Body */
@@ -54,9 +55,9 @@ p {
 nav{
   position: fixed;
   top: 0;
-  width: 100%;
-  background-color: var(--secondary-bg-color);
+  width: 60%;
   z-index: 1000;
+  margin: auto 20%;
 }
 
 /* Navigation */
@@ -81,7 +82,7 @@ nav ul li :hover{
 nav ul li a {
   text-decoration: none;
   padding: 0.5rem 1rem;
-  color: black;
+  color: var(--anchor-color);
 }
 
 
@@ -93,9 +94,8 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--secondary-bg-color);
   padding: 0 2rem;
-  margin-top: 60px;
+  margin-top: 58px;
 }
 
 .hero-content {
@@ -125,6 +125,26 @@ a:hover {
   border-radius: 50%;
 }
 
+.resume{
+  background-color: var(--secondary-bg-color);
+  padding: 20px;
+}
+
+.resume span{
+  margin: 40%;
+}
+
+.resume a{
+  border: 1px solid black;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 99px;
+  width: 100px;
+  text-decoration: none;
+  margin: 5px;
+}
+
 #skills {
   padding: 4rem 0;
   background-color: var(--secondary-bg-color);
@@ -147,6 +167,22 @@ a:hover {
   background-color: var(--skills-bg-color);
   color: var(--skills-font-color);
   border-radius: 0.25rem;
+}
+
+.experience{
+  margin: 1em;
+}
+
+#exp-title{
+  text-align: center;
+}
+
+.exp {
+  border: 0.5px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .posts {
@@ -187,7 +223,7 @@ article h3 {
 article a {
   font-size: 1.1rem;
   text-decoration: none;
-  color: #333;
+  color: var(--font-color);
   margin: 0 1rem 1rem;
 }
 
@@ -205,45 +241,31 @@ footer {
 
 footer p{
 margin: 0 auto 0px;
-color: #bec6d5;
+color: var(--footer-font-color);
 }
 
 .footer-text{
 font-size: 1.2rem;
-color: #bec6d5;
+color: var(--footer-font-color);
 }
 
 .fa{
 size: 1.5rem;
 margin-top: 3rem;
-color: white;
+color: var(--background-color);
 }
 
 footer a{
 text-decoration: none;
 padding: 8px;
-color: white;
+color: var(--anchor-color);
 }
 
 footer h3{
-color: white;
+color: var(--anchor-color);
 font-size: 1.8rem;
 }
 
 .footer-bottom{
 margin: 2rem 0px 0px 0px;
 }
-
-
-
-
-/* Hero section */
-
-
-/* Skills section */
-
-
-/* Footer */
-
-
-/* Additional styles remain unchanged */
