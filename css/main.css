@@ -58,6 +58,9 @@ nav{
   width: 60%;
   z-index: 1000;
   margin: auto 20%;
+  background-color: var(--background-color);
+  border-radius: 99px;
+  margin-top: 10px;
 }
 
 /* Navigation */
@@ -67,6 +70,7 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
+  margin: 5px;;
 }
 
 nav ul li {
@@ -81,7 +85,7 @@ nav ul li :hover{
 
 nav ul li a {
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem; */
   color: var(--anchor-color);
 }
 
@@ -252,13 +256,13 @@ color: var(--footer-font-color);
 .fa{
 size: 1.5rem;
 margin-top: 3rem;
-color: var(--background-color);
+color: var(--footer-font-color)
 }
 
 footer a{
 text-decoration: none;
 padding: 8px;
-color: var(--anchor-color);
+color: white;
 }
 
 footer h3{
