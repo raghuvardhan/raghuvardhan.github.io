@@ -70,7 +70,8 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  margin: 5px;;
+  margin: 5px;
+  align-items: center;
 }
 
 nav ul li {
@@ -124,7 +125,7 @@ a:hover {
 }
 
 .photo img {
-  width: 80%;
+  width: 60%;
   height: auto;
   border-radius: 50%;
 }
@@ -135,7 +136,7 @@ a:hover {
 }
 
 .resume span{
-  margin: 40%;
+  margin: 30%;
 }
 
 .resume a{
@@ -272,4 +273,8 @@ font-size: 1.8rem;
 
 .footer-bottom{
 margin: 2rem 0px 0px 0px;
+}
+
+.footer-bottom p {
+  padding-bottom: 20px;
 }
