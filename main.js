@@ -1,18 +1,13 @@
-// Initial setup: Check if user has a preferred theme in local storage
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme) {
   document.body.setAttribute('data-theme', savedTheme);
 }
 
-// Reference to the toggle button
-const toggleButton = document.getElementById('theme-toggle');
+const toggleButton = document.getElementById('darkModeToggle');
 
-// Event listener for button click
 toggleButton.addEventListener('click', () => {
-  // Check current theme
   const currentTheme = document.body.getAttribute('data-theme');
   
-  // Toggle theme and update the attribute
   if (currentTheme === 'dark') {
     document.body.setAttribute('data-theme', 'light');
     localStorage.setItem('theme', 'light');  // Save preference
