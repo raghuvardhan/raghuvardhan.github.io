@@ -315,6 +315,10 @@ color: var(--anchor-color);
 font-size: 1.8rem;
 }
 
+#connect{
+  margin: 10px;
+}
+
 .footer-bottom{
 margin: 2rem 0px 0px 0px;
 }
